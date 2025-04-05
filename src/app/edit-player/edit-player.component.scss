@@ -1,0 +1,20 @@
+.pictures-container {
+    display: flex;   
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    border-radius: 32px;
+}
+
+.profile-picture {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+
+    &:hover {
+        filter: brightness(1.15);
+    }
+}

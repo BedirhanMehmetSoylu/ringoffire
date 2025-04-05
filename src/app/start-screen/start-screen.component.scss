@@ -28,6 +28,9 @@
             cursor: pointer;
             color: orange;
         }
+        @media (max-width: 960px) {
+            font-size: 56px;
+        }
     }    
 }
 
